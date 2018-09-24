@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Renato Moor Cv</title>
+        <link rel="stylesheet" href="cv.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    </head>
+    <body class="">
+        <div id="header">
+            <img align="left" src="http://icons.iconarchive.com/icons/inipagi/job-seeker/256/cv-icon.png" alt="">
+            <a href="#presentation">Présentation</a>
+            <a href="#competences">Competences</a>
+            <a href="#loisir">Loisir</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <scroll-container>
+
+            <div id="presentation" class="section">
+                <div class="center">
+                    <table>
+                        <tr><th colspan="3"><h2>Présentation</h2></th></tr>
+                        <tr>
+                            <td>Nom:</td>
+                            <td>Moor</td>
+                            <td rowspan="5">                    <img  src="https://avatars2.githubusercontent.com/u/24254515?s=460&v=4" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Prénom:</td>
+                            <td>Renato</td>
+                        </tr>
+                        <tr>
+                            <td>Adresse:</td>
+                            <td>Route de la Roche 4 <br> 1073 Savigny</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td>youknow@justchill.com</td>
+                        </tr>
+                        <tr>
+                            <td>N° de tel:</td>
+                            <td>0786924171</td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+            </div>
+
+
+            <div id="competences" class="section">
+                <div class="center">
+                    <h2>Competences</h2>
+                    <ul>
+                        <li>Html, Css, JS</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>PHP</li>
+                        <li>C</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div id="loisir" class="section">
+                <div class="center">
+                    <h2>Loisir</h2>
+                    <ul>
+                        <li>Football</li>
+                        <li>Jouer jeux des videos </li>
+                        <li>Programmation</li>
+                        <li>Technologie</li>
+                        <li>Musique</li>
+                        <li>Voyager</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="contact" class="section">
+                <div class="center">
+                    <table>
+                        <form action="mailto:youknow@justchill.com">
+
+                            <tr>
+                                <th >
+                                    <h2>Contact</h2>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Titre
+                                </td>
+                                <td>
+                                    <select  id="select">
+                                        <option value="Monsieur">Monsieur</option>
+                                        <option value="Madame">Madame</option>
+                                        <option value="Mademoiselle">Mademoiselle</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Nom</td>
+                                <td>
+                                    <input type="text"
+                                           id="lastName"
+                                           name="usrLastName"
+                                    >
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Prenom</td>
+                                <td>
+                                    <input type="text"
+                                           id="name"
+                                           name="usrName"
+                                    >
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Demande</td>
+                                <td>
+                            <textarea rows="3"
+                                      cols="40"
+                                      id="question"
+                                      name="usrQuestion"
+                            >
+                            </textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>E-mail</td>
+                                <td>
+                                    <input type="email"
+                                           name="usrEmail" >
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Téléphone</td>
+                                <td>
+                                    <input type="tel"
+                                           name="usrTel"
+                                           placeholder="078-692-4070"
+                                           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Répondez moi par téléphone</td>
+                                <td>
+                                    <input type="radio"
+                                           name="contactWay"
+                                           value="email">
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Répondez moi par email</td>
+                                <td>
+                                    <input type="radio"
+                                           name="contactWay"
+                                           value="tel">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="Submit"
+                                           value="Envoyer"
+                                    >
+                                </td>
+                                <td>
+                                    <input type="reset"
+                                           value="Réinisialiser">
+                                </td>
+                            </tr>
+                        </form>
+
+                    </table>
+                </div>
+            </div>
+        </scroll-container>
+    <footer id="footer">
+    <a href="#presentation" id="icon-top">
+            <i class="material-icons md-48">
+                arrow_upward
+            </i>
+        </a>
+
+    </footer>
+    </body>
+</html>

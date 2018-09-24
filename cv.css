@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+#header {
+    overflow: hidden;
+    background-color: #3E2723;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 2%;
+    box-shadow: 2px 2px 20px ;
+}
+
+#header img {
+
+    margin-top: 0.4%;
+    height: 5vh;
+
+}
+
+
+#header a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    transition: all 1s ease;
+    transform: scale(1);
+    border-radius: 100px;
+    height: 3vh;
+}
+
+
+#header a:hover,r {
+    background: #ddd;
+    color: black;
+    transform: scale(1.05) perspective(1px);
+}
+
+
+
+/* Main content */
+.scrolling-box {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+}
+
+.section{
+    height: 100vh;
+}
+
+#footer {
+    margin-left: 2%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+
+}
+.material-icons.md-48 {
+    font-size: 250%;
+    background-color: #3E2723;
+    border-radius: 100%;
+    color: #dddddd;
+    transition: all 1s ease;
+    transform: scale(1);
+
+}
+.material-icons.md-48:hover {
+    background: #ddd;
+    color: black;
+    transform: scale(1.01) perspective(1px);
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding-top: 25vh;
+
+}
+
+
+#presentation{
+    background-color: #FFE0B2;
+}
+#competences {
+    background-color: #D7CCC8;
+}
+#loisir{
+    background-color: #C8E6C9;
+}
+#contact{
+    background-color: #424242;
+    color: white;
+}
+
+scroll-container {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#presentation img {
+    max-width: 11em;
+    max-height: 11em;
+    margin-left: 5em;
+    border-radius: 80px;
+}
+
